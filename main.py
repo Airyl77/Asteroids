@@ -54,7 +54,7 @@ def main():
             
             for sh in shots:
                 if sh.collisions(p):
-                    p.kill()
+                    p.split()
                     sh.kill()
             
 
